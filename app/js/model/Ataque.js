@@ -28,7 +28,7 @@ class Ataque{
 		if(life==0){
 			this.view.updateMensagem(posicao);
 			document.querySelector("#mensagemView")
-		.style.visibility = "visible";
+			.style.visibility = "visible";
 			this._buttons.forEach(n=> n.disabled = true);
 		}
 	}
